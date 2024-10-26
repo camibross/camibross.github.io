@@ -1,0 +1,80 @@
+.parent {
+  display: flex;
+  align-items: end;
+}
+
+.parent__logo {
+  display: flex;
+  align-items: end;
+}
+
+.parent__logo img {
+  width: 80px;
+}
+
+.parent__logo h2 {
+  align-items: end;
+}
+
+.parent__nav {
+  align-items: end;
+}
+
+.parent__nav ul {
+  display: flex;
+}
+
+.parent__nav ul a {
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.text1 h2 {
+  text-align: center;
+}
+
+.mom {
+  display: flex;
+}
+
+.mom__cat img {
+  width: 80px;
+}
+
+.mom__toys img {
+  width: 80px;
+}
+
+.mom__paws img {
+  width: 80px;
+}
+
+.mom h4 {
+  text-align: center;
+}
+
+.mom img {
+  align-items: center;
+}
+
+.footer p {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .parent {
+    flex-direction: column;
+  }
+  .parent__nav {
+    flex-direction: column;
+  }
+  .carousel {
+    width: 600px;
+    justify-content: center;
+  }
+  .mom {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
